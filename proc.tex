@@ -1,0 +1,77 @@
+\documentclass[a4paper,twocolumn,twoside,10pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,margin=1in]{geometry}
+%\usepackage{fancyhdr}
+\usepackage{pdfpages}
+\usepackage{url}
+\pagestyle{plain}
+
+\begin{document}
+
+\title{International Go Game Science Conference 2015}
+\author{IGGSC2015 \\ Petr Baudiš, Josef Moudřík (eds.)}
+\date{July 30, 2015 \\ EGC2015 in Liberec, Czech Republic}
+
+\frontmatter
+\maketitle
+
+%% copyrightpage
+\begingroup
+\pagestyle{empty}
+\footnotesize
+\parindent 0pt
+\parskip \baselineskip
+
+~
+
+\vskip 50ex
+
+The papers printed in these proceedings are also available online
+at \url{http://pasky.or.cz/iggsc2015/} in color or with additional
+appendices.
+
+The papers are \textcopyright{} their respective authors,
+and are made available under the terms of the Creative Commons
+licence Attribution-NoDerivatives 4.0 International (CC-BY-ND).
+
+\vfil
+
+ISBN TODO \\
+
+\vspace{5ex}
+
+MatfyzPress TODO
+
+%%%%{\LARGE\plogo}
+\vspace*{2\baselineskip}
+
+
+\endgroup
+\clearpage
+
+
+\chapter*{Introduction}
+
+Text by J. Moudřík.
+
+\tableofcontents
+
+\mainmatter
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Computer-Aided Go on High-dan Level \protect\newline (Ingo Althöfer, Manja Marz, Stefan Kaitschik)}
+\includepdf[pages=-,pagecommand={\pagestyle{plain}}]{Althoefer.pdf}
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{A New Approach to an Old Problem: The Reconstruction \protect\newline of a Go Game through a Series of Photographs \protect\newline (Andrea Carta, Mario Corsolini)}
+\includepdf[pages=1-12,pagecommand={\pagestyle{plain}}]{Carta-Corsolini.pdf}
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{A Proposal of Global Open Data Index for the Game of Go \protect\newline (Leonardo Alberto Dal Zovo, Angela Corbari)}
+\includepdf[pages=-,pagecommand={\pagestyle{plain}}]{DelZovo.pdf}
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Improving Learning Progress in a Mind Sport Game \protect\newline (Marc Oliver Rieger, Stefan Rössel)}
+\includepdf[pages=-,pagecommand={\pagestyle{plain}}]{Rieger.pdf}
+
+\end{document}
